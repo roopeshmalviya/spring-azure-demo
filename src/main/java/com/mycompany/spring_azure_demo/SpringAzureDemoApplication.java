@@ -11,7 +11,7 @@ public class SpringAzureDemoApplication {
 
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello, Azure!";
+		return "Hello From Azure VM!";
 	}
 
 	public static void main(String[] args) {
